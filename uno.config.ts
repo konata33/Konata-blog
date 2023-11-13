@@ -26,7 +26,7 @@ export default defineConfig({
     presetTypography(),
     presetWebFonts({
       fonts: {
-        // ...
+        mono: ['Kalam'],
       },
     }),
     presetRadix({

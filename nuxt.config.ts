@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@vite-pwa/nuxt',
     'radix-vue/nuxt',
+    'nuxt-svgo',
   ],
   css: [
     '@unocss/reset/tailwind.css',
