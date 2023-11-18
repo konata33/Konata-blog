@@ -8,7 +8,7 @@
 </script>
 
 <template>
-  <ul items-left mt-10 flex>
+  <ul items-left xs:justify-center mt-10 flex>
     <li>
       <div inline-block>
         <button aspect-square h-10 w-10 flex items-center justify-center rounded-full bg-blue-11 text-2xl text-white>

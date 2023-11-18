@@ -10,6 +10,13 @@ export default defineNuxtConfig({
     'radix-vue/nuxt',
     'nuxt-svgo',
   ],
+  app: {
+    head: {
+      meta: [
+        { name: 'referrer', content: 'no-referrer' },
+      ],
+    },
+  },
   css: [
     '@unocss/reset/tailwind.css',
   ],
