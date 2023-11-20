@@ -14,7 +14,6 @@ import { presetRadix } from 'unocss-preset-radix'
 
 export default defineConfig({
   shortcuts: [
-    // ...
   ],
   theme: {
     breakpoints: {
@@ -41,6 +40,7 @@ export default defineConfig({
     presetRadix({
       palette: ['blue', 'green', 'red', 'mauve', 'gray'],
     }),
+
   ],
   transformers: [transformerDirectives(), transformerVariantGroup()],
 })
