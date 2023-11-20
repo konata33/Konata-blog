@@ -13,6 +13,7 @@
     "typecheck": "vue-tsc --noEmit"
   },
   "dependencies": {
+    "@nuxt/content": "^2.9.0",
     "radix-vue": "^1.1.1"
   },
   "devDependencies": {
@@ -24,6 +25,7 @@
     "@unocss/eslint-config": "^0.57.2",
     "@unocss/nuxt": "^0.57.2",
     "@vite-pwa/nuxt": "^0.2.0",
+    "@vue-macros/nuxt": "^1.9.6",
     "@vueuse/nuxt": "^10.5.0",
     "eslint": "^8.53.0",
     "nuxt": "^3.8.1",
