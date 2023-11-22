@@ -1,7 +1,7 @@
 <template>
   <div>
     <div py-5 text-4xl font-bold>
-      Latest Life
+      Latest Posts
     </div>
     <ul space-y-3>
       <li flex items-center justify-between>
