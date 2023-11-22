@@ -5,7 +5,7 @@
 <template>
   <div flex flex-row-reverse items-start justify-between py-5>
     <div>
-      <img src="logo.png" alt="konata_logo" h-38 w-40 rounded-full object-cover>
+      <img src="@/assets/logo.png" alt="konata_logo" h-38 w-40 rounded-full object-cover>
     </div>
     <div pt-5 text-3xl font-mono>
       <div>Hi,</div>
