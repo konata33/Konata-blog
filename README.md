@@ -1,75 +1,12 @@
-# Nuxt 3 Minimal Starter
+# My Personal Blog
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This repository contains the source code for my blog, implemented with the following stack:
 
-## Setup
+-  [Nuxt3](https://v3.nuxtjs.org/): The Intuitive Vue Framework.
+-  [Vueuse](https://vueuse.org/): Collection of essential Vue Composition APIs.
+-  [VueMacros](https://github.com/vue-component-analyzer/vue-macros): Provide macro utilities for Vue 3.
+-  [RadixVue](https://www.radix-ui.com/docs/primitives/overview/introduction): An open-source UI component library for building high-quality, accessible design systems.
+-  [Pinia](https://pinia.esm.dev/): Intuitive, type safe and flexible Store for Vue using the composition api.
+-  [Unocss](https://unocss.antfu.me/): Uno.css is an atomic CSS-in-JS framework designed for rapidly building web interfaces using utility classes.
 
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+If you find this project interesting or helpful, please give it a star. Your support is greatly appreciated! 🌟

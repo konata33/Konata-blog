@@ -43,7 +43,11 @@ const musicList = [{
       <div v-for="(item, index) in musicList" :key="index" flex flex-col items-start px-4 pt-4>
         <!-- 图片 -->
         <AvatarRoot>
-          <AvatarImage :src="item.cover" h-30 w-30 rounded-3 object-cover />
+          <AvatarImage
+            :src="item.cover"
+
+            h-30 w-30 transform rounded-3 object-cover transition-all duration-500 ease-in-out hover:scale-110 dark:hover:brightness-75
+          />
         </AvatarRoot>
 
         <!-- 音乐名称 -->
