@@ -22,6 +22,11 @@ export default defineNuxtConfig({
   css: [
     '@unocss/reset/tailwind.css',
   ],
+  content: {
+    highlight: {
+      theme: 'vitesse-dark',
+    },
+  },
   experimental: {
     // when using generate, payload js assets included in sw precache manifest
     // but missing on offline, disabling extraction it until fixed

@@ -13,28 +13,26 @@ import {
 import { presetRadix } from 'unocss-preset-radix'
 
 export default defineConfig({
-  shortcuts: [
-  ],
-  theme: {
-    breakpoints: {
-      xxs: '0px',
-      xs: '320px',
-      sm: '480px',
-      md: '768px',
-      lg: '1024px',
-      xl: '1280px',
-      xxl: '1600px',
-    },
-    // ...
-  },
+  shortcuts: [],
   presets: [
     presetUno(),
     presetAttributify(),
     presetIcons(),
-    presetTypography(),
+    presetTypography({
+      cssExtend: {
+        pre: {
+          'background-color': '#292929 !important',
+        },
+        code: {
+          color: 'white',
+        },
+      },
+    }),
     presetWebFonts({
       fonts: {
-        mono: ['Kalam'],
+        kalam: ['Kalam'],
+        mono: ['Fira Code'],
+
       },
     }),
     presetRadix({

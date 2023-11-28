@@ -1,37 +1,48 @@
----
-title: 大象 - 世界最大的陆地动物
-author: 某某某
-date: 2023-11-24
----
 
-# 大象 - 世界最大的陆地动物
 
-大象是地球上最大的陆地动物之一，它们属于象科动物，分为非洲象和亚洲象两种。
+插入代码段：
 
-## 特征
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>我的网页标题</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="这是一个简要描述">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">首页</a></li>
+          <li><a href="#about">关于我们</a></li>
+          <li><a href="#contact">联系我们</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Welcome to My Website</h1>
+      <p>This is a paragraph of text in the main body of the webpage.</p>
+    </main>
+    <footer>
+      <p>版权所有 &copy; 2023</p>
+    </footer>
+  </body>
+</html>
+```
 
-大象具有以下特征：
-- **体型**：巨大而高大，非洲象比亚洲象更高更重。
-- **鼻子**：长长的鼻子，称为象鼻，可用于触摸、拿取物品和喷水。
-- **象牙**：象牙是大象的门牙，常用于挖掘、防卫和展示。
+```javascript
+let person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 31,
+  nationality: "American",
+  introduce: function() {
+    return `Hello, my name is ${this.firstName} ${this.lastName}.`;
+  }
+};
 
-## 生活习性
-
-大象的生活方式包括：
-- **群居**：以群组生活，通常由一只成年母象领导。
-- **食性**：主要是草食性动物，每天需要大量的植物作为食物。
-- **智慧**：拥有高度智慧和情感，表现出对同伴的关心和情感联系。
-
-## 栖息地
-
-大象生活在不同的栖息地中，包括：
-1. **非洲大草原**：非洲象在草原和森林中生活。
-2. **亚洲热带雨林**：亚洲象更适应热带和亚热带地区的森林和沼泽。
-
-## 图片
-
-![一只大象](https://example.com/elephant.jpg)
-
-## 结语
-
-大象是令人惊叹且备受尊敬的动物，它们的体型和智慧给我们带来了很多启发。它们也面临着来自偷猎和栖息地破坏等威胁，需要我们的保护。
+console.log(person.introduce()); // 输出：Hello, my name is John Doe.
