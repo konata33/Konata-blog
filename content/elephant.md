@@ -1,48 +1,37 @@
+---
+title: 猫科动物 - 家猫
+author: 某某某
+date: 2023-11-23
+---
 
+# 猫科动物 - 家猫
 
-插入代码段：
+猫科动物中的家猫是人类驯养的一种常见宠物。
 
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>我的网页标题</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="这是一个简要描述">
-    <meta name="keywords" content="HTML,CSS,JavaScript">
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#home">首页</a></li>
-          <li><a href="#about">关于我们</a></li>
-          <li><a href="#contact">联系我们</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <h1>Welcome to My Website</h1>
-      <p>This is a paragraph of text in the main body of the webpage.</p>
-    </main>
-    <footer>
-      <p>版权所有 &copy; 2023</p>
-    </footer>
-  </body>
-</html>
-```
+## 特征
 
-```javascript
-let person = {
-  firstName: "John",
-  lastName: "Doe",
-  age: 31,
-  nationality: "American",
-  introduce: function() {
-    return `Hello, my name is ${this.firstName} ${this.lastName}.`;
-  }
-};
+家猫通常具有以下特征：
+- **体型**：大小各异，一般有小到中等大小。
+- **被毛**：毛色多样，包括灰色、橘黄色、黑色等。
+- **眼睛**：眼睛呈现不同颜色的可能性较大。
 
-console.log(person.introduce()); // 输出：Hello, my name is John Doe.
+## 行为
+
+家猫表现出多种行为：
+- **捕猎本能**：喜欢追逐、狩猎小型动物。
+- **清洁**：花时间自我清洁以保持干净。
+- **亲昵**：有时与人类建立亲密关系，表现出亲近行为。
+
+## 习性
+
+家猫的习性包括：
+1. **睡眠**：倾向于在白天和晚上进行多次短时间的睡眠。
+2. **游戏**：喜欢玩耍，对玩具或其他动物有好奇心。
+
+## 图片
+
+![一只家猫](https://example.com/cat.jpg)
+
+## 结语
+
+家猫是人类的忠实伴侣之一，它们的独特特征和行为使它们成为广受欢迎的宠物之一。

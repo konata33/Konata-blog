@@ -4,10 +4,10 @@ console.log(articles)
 </script> -->
 
 <template>
-  <div py-5 text-4xl font-bold>
+  <NuxtLink to="/postlist" cursor-pointer py-5 text-4xl font-bold>
     Latest Posts
-  </div>
-  <ul space-y-3>
+  </NuxtLink>
+  <ul py-5 space-y-3>
     <ContentList
       v-slot="{ list }"
       path="/"
