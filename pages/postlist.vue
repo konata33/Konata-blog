@@ -5,28 +5,12 @@ definePageMeta({
 </script>
 
 <template>
-  <div top-0 z-100 w-full flex border-b-1 b-white>
-    <nav class="bg-blue-500 p-4 text-white">
-      <ul class="flex justify-between">
-        <li>
-          <NuxtLink class="hover:text-gray-300" to="/">
-            主页
-          </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink class="hover:text-gray-300">
-            关于
-          </NuxtLink>
-        </li>
-      </ul>
-    </nav>
-  </div>
-
+  <NavigationTabs />
   <div flex flex-col items-center justify-center>
     <div font-kalam py-10 font-size-17 font-bold>
       Notes
     </div>
-    <ul class="w-50vw space-y-3">
+    <ul class="color-slate-3 w-50vw space-y-3">
       <ContentList
         v-slot="{ list }"
         path="/"

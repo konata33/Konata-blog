@@ -36,7 +36,7 @@ export default defineConfig({
       },
     }),
     presetRadix({
-      palette: ['blue', 'green', 'red', 'mauve', 'gray'],
+      palette: ['blue', 'green', 'red', 'mauve', 'gray', 'slate'],
     }),
 
   ],
