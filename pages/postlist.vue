@@ -7,10 +7,10 @@ definePageMeta({
 <template>
   <NavigationTabs />
   <div flex flex-col items-center justify-center>
-    <div font-kalam py-10 font-size-17 font-bold>
+    <div py-10 font-size-17 font-bold font-kalam>
       Notes
     </div>
-    <ul class="color-slate-3 w-50vw space-y-3">
+    <ul class="w-50vw color-slate-3 space-y-3">
       <ContentList
         v-slot="{ list }"
         path="/"
@@ -28,7 +28,7 @@ definePageMeta({
           <NuxtLink :to="`/posts${article._path}`">
             <div class="flex items-center justify-between hover:underline">
               <span mb-5 text-3xl font-bold>{{ article.title }}</span>
-              <!-- <span>{{ new Date(article.date).toLocaleDateString() }}</span> -->
+              <span>{{ new Date(article.date).toLocaleDateString() }}</span>
             </div>
             <div text-sm>
               {{ article.description }}

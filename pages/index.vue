@@ -15,6 +15,6 @@
     </div>
   </div>
   <NavigationIcons py-5 />
-  <LatestMusic py-5 />
+  <Projects py-5 />
   <LatestPosts py-5 />
 </template>

@@ -1,8 +1,3 @@
-<!-- <script setup>
-const articles = await (await queryContent('/').find())
-console.log(articles)
-</script> -->
-
 <template>
   <div>
     <NuxtLink to="/postlist" cursor-pointer py-5 text-4xl font-bold>
