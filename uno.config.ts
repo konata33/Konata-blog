@@ -30,9 +30,7 @@ export default defineConfig({
     }),
     presetWebFonts({
       fonts: {
-        kalam: ['Kalam'],
         mono: ['Fira Code'],
-
       },
     }),
     presetRadix({

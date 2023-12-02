@@ -8,6 +8,9 @@ dependencies:
   '@fontsource-variable/newsreader':
     specifier: ^5.0.16
     version: 5.0.16
+  '@fontsource/kalam':
+    specifier: ^5.0.8
+    version: 5.0.8
   '@nuxt/content':
     specifier: ^2.9.0
     version: 2.9.0(nuxt@3.8.2)(rollup@2.79.1)(vue@3.3.8)
@@ -1871,6 +1874,10 @@ packages:
 
   /@fontsource-variable/newsreader@5.0.16:
     resolution: {integrity: sha512-Fs3odBKUQpEPoZgCdisraTlWwkl39jyAN46QyOcUIL281WaQVVt0gHXJBpufk43HuF10iuKeyMrqeYqaNnAXIQ==}
+    dev: false
+
+  /@fontsource/kalam@5.0.8:
+    resolution: {integrity: sha512-Iy4rj43aSm41LOlkCSsEvdKuJ3RWoiRX2bpDv/OZ2hivhFiaWQGMXYCglF2cgwnOu4JlugKxsEOK7InWOI5eMg==}
     dev: false
 
   /@humanwhocodes/config-array@0.11.13:
