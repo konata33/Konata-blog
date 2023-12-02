@@ -5,9 +5,9 @@ import '@fontsource/kalam'
 </script>
 
 <template>
-  <body fg-base mx-auto max-w-3xl px-6 py-6>
+  <div fg-base mx-auto flex flex-col items-center justify-center px-6 py-6>
     <slot />
-  </body>
+  </div>
 </template>
 
 <style>

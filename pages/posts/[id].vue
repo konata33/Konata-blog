@@ -1,7 +1,4 @@
 <script setup>
-definePageMeta({
-  layout: 'postLayout',
-})
 const route = useRoute()
 </script>
 

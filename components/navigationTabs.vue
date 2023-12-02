@@ -1,9 +1,3 @@
-<script>
-definePageMeta({
-  layout: 'postLayout',
-})
-</script>
-
 <template>
   <div sticky top-0 z-100 w-full flex>
     <div m-5 flex-1>

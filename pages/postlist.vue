@@ -1,9 +1,3 @@
-<script setup>
-definePageMeta({
-  layout: 'postLayout',
-})
-</script>
-
 <template>
   <NavigationTabs />
   <div flex flex-col items-center justify-center>
