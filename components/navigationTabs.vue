@@ -1,6 +1,6 @@
 <script>
 definePageMeta({
-  layout: false,
+  layout: 'postLayout',
 })
 </script>
 
