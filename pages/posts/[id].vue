@@ -15,7 +15,7 @@ const article = await queryContent(route.params.id).findOne()
       <div>
         {{ article.date }}
       </div>
-      <article prose-lg w-full flex items-center justify-center font-sans color-slate-3 prose first-letter:text-3xl>
+      <article class="$ui-text" prose-lg w-full flex items-center justify-center font-sans prose first-letter:text-3xl>
         <ContentDoc :path="route.params.id" />
       </article>
     </div>

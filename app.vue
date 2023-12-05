@@ -1,5 +1,10 @@
+<script setup lang="ts">
+const isDark = useDark()
+</script>
+
 <template>
-  <NuxtLayout dark>
+  <NuxtLayout :class="{ dark: isDark }">
+    <NuxtLoadingIndicator />
     <NuxtPage />
   </NuxtLayout>
 </template>
