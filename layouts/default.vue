@@ -14,4 +14,9 @@ import '@fontsource/kalam'
 html {
   font-family: 'Newsreader Variable', sans-serif;
 }
+.dark {
+  /* background: var(--un-preset-radix-gray12);
+  color: #ebf4f1; */
+  color-scheme: dark;
+}
 </style>

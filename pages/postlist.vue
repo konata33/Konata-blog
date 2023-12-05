@@ -1,7 +1,7 @@
 <template>
   <NavigationTabs />
   <div flex flex-col items-center justify-center>
-    <div py-10 font-size-17 font-bold font-kalam>
+    <div font-kalam py-10 font-size-17 font-bold>
       Notes
     </div>
     <ul class="w-50vw color-slate-3 space-y-3">
@@ -20,11 +20,11 @@
           cursor-pointer py-5
         >
           <NuxtLink :to="`/posts${article._path}`">
-            <div class="flex items-center justify-between hover:underline">
+            <div class="$ui-text flex items-center justify-between hover:underline">
               <span mb-5 text-3xl font-bold>{{ article.title }}</span>
               <span>{{ new Date(article.date).toLocaleDateString() }}</span>
             </div>
-            <div text-sm>
+            <div text-sm class="$ui-text">
               {{ article.description }}
             </div>
           </NuxtLink>
