@@ -1,10 +1,10 @@
 <template>
-  <div w-2xl flex flex-col justify-center>
+  <div flex flex-col justify-center>
     <div flex flex-row-reverse items-start justify-between py-5>
       <div>
         <img src="@/assets/logo.png" alt="konata_logo" h-38 w-40 rounded-full object-cover>
       </div>
-      <div font-kalam pt-5 text-3xl>
+      <div pt-5 text-3xl font-kalam>
         <div>Hi,</div>
         <div>I'm Konata</div>
         <div>A Front-end developer</div>
