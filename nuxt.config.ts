@@ -20,15 +20,6 @@ export default defineNuxtConfig({
       link: [
         { rel: 'icon', type: 'image/png', href: 'favicon.ico' },
       ],
-      script: [{ children: `if (
-        localStorage.getItem('vueuse-color-scheme') === 'dark'
-        || (!localStorage.getItem('vueuse-color-scheme')
-            && window.matchMedia('dark').matches)
-      )
-        document.querySelector('html').classList.add('dark')
-      
-      else
-        document.querySelector('html').classList.remove('dark')` }],
     },
   },
   css: [
