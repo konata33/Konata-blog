@@ -13,8 +13,12 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
+      title: 'Konata',
       meta: [
         { name: 'referrer', content: 'no-referrer' },
+      ],
+      link: [
+        { rel: 'icon', type: 'image/png', href: 'favicon.png' },
       ],
       script: [{ children: `if (
         localStorage.getItem('vueuse-color-scheme') === 'dark'
