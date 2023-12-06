@@ -24,10 +24,9 @@ export default defineNuxtConfig({
         localStorage.getItem('vueuse-color-scheme') === 'dark'
         || (!localStorage.getItem('vueuse-color-scheme')
             && window.matchMedia('dark').matches)
-      ){
-        console.log('succesful')
+      )
         document.querySelector('html').classList.add('dark')
-      }
+      
       else
         document.querySelector('html').classList.remove('dark')` }],
     },

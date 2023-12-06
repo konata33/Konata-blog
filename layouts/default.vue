@@ -5,9 +5,11 @@ import '@fontsource/kalam'
 </script>
 
 <template>
-  <div fg-base font-newsreader mx-auto flex flex-col items-center justify-center px-6 py-6>
-    <slot />
-  </div>
+  <clientOnly placeholder="Loading....">
+    <div fg-base mx-auto flex flex-col items-center justify-center px-6 py-6 font-newsreader>
+      <slot />
+    </div>
+  </clientOnly>
 </template>
 
 <style>
