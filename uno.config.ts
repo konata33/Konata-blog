@@ -40,28 +40,54 @@ export default defineConfig({
       },
     ],
   ],
+  theme: {
+    fontFamily: {
+      newsreader: ['Newsreader Variable'],
+      kalam: ['Kalam'],
+    },
+  },
   presets: [
     presetUno(),
     presetAttributify(),
-    presetIcons(),
+    presetIcons({
+      extraProperties: {
+        'display': 'inline-block',
+        'height': '1.2em',
+        'width': '1.2em',
+        'vertical-align': 'text-bottom',
+      },
+    }),
     presetTypography({
       cssExtend: {
-        a: {
+        'a': {
+          'display': 'inline-block',
+          'line-height': '1.5',
+          'border-bottom': '1px dashed rgba(var(--c-context), 0.5)',
           'text-decoration': 'none',
+          'transition': 'all 0.3s ease-in-out',
         },
-        pre: {
-          'background-color': '#292929 !important',
+        'a:hover': {
+          'border-bottom': '1px solid rgba(var(--c-context), 1)',
         },
-        code: {
-          color: 'white',
+        'p a': {
+          color: '#FF7D40',
+        },
+        'ul li a': {
+          color: '#C0C0C0',
+        },
+        'pre': {
+          'background': '#eee !important',
+          'font-family': 'dm',
+        },
+        '.dark pre': {
+          background: '#222 !important',
+        },
+        'blockquote': {
+          'border-left': '0.1em solid rgba(168,85,247,.4)',
         },
       },
     }),
-    presetWebFonts({
-      fonts: {
-        mono: ['Fira Code'],
-      },
-    }),
+    presetWebFonts(),
     presetRadix({
       palette: ['blue', 'green', 'red', 'mauve', 'gray', 'slate'],
     }),

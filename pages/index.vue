@@ -4,7 +4,7 @@
       <div>
         <img src="@/assets/logo.png" alt="konata_logo" h-38 w-40 rounded-full object-cover>
       </div>
-      <div class="introduceFont" pt-5 text-3xl>
+      <div font-kalam pt-5 text-3xl>
         <div>Hi,</div>
         <div>I'm Konata</div>
         <div>A Front-end developer</div>
@@ -16,9 +16,3 @@
     <LatestPosts py-5 />
   </div>
 </template>
-
-<style>
-.introduceFont{
-  font-family: 'Kalam', sans-serif;
-}
-</style>
