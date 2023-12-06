@@ -2,7 +2,7 @@
   <div w-2xl flex flex-col justify-center>
     <div flex flex-row-reverse items-start justify-between py-5>
       <div>
-        <img src="favicon.png" alt="konata_logo" h-38 w-40 rounded-full object-cover>
+        <img src="@/assets/logo.png" alt="konata_logo" h-38 w-40 rounded-full object-cover>
       </div>
       <div font-kalam pt-5 text-3xl>
         <div>Hi,</div>
