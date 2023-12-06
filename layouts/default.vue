@@ -2,8 +2,6 @@
 // Supports weights 200-800
 import '@fontsource-variable/newsreader'
 import '@fontsource/kalam'
-
-const online = useOnline()
 </script>
 
 <template>
