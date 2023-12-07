@@ -39,6 +39,22 @@ export default defineConfig({
         `
       },
     ],
+    [
+      '$ui-fg',
+      {
+        'background': `radial-gradient(transparent, rgba(255 255 255) 2px)`,
+        'background-size': `4px 4px`,
+        'backdrop-filter': `blur(10px)`,
+      },
+    ],
+    [
+      'dark $ui-fg',
+      {
+        'background': `radial-gradient(transparent, rgba(23 19 19) 2px)`,
+        'background-size': `4px 4px`,
+        'backdrop-filter': `blur(10px)`,
+      },
+    ],
   ],
   theme: {
     fontFamily: {

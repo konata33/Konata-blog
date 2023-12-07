@@ -1,9 +1,9 @@
 <template>
-  <div sticky top-0 z-100 w-full flex>
-    <div m-5 flex-1>
-      <img src="@/assets/logo.png" alt="konata_logo" h-13 w-14 rounded-full object-cover>
+  <div class="$ui-fg" sticky top-0 z-100 w-full flex>
+    <div my-3 max-w-15 w-10vw flex-1>
+      <img src="@/assets/logo.png" alt="konata_logo" h-auto max-w-full rounded-full object-cover>
     </div>
-    <div m-5 flex flex-1 items-center justify-end text-4>
+    <div m-5 mb-0 flex flex-1 items-center justify-end text-4>
       <NuxtLink to="/" px-5>
         Portfolio
       </NuxtLink>
