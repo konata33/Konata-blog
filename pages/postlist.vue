@@ -4,7 +4,7 @@
     <div py-10 font-size-17 font-bold font-kalam>
       Notes
     </div>
-    <ul max-w-80vw color-slate-3 space-y-3>
+    <ul color-slate-3 md:w-40vw space-y-3>
       <ContentList
         path="/"
         :query="{
@@ -21,7 +21,7 @@
           >
             <NuxtLink :to="`/posts${article._path}`">
               <div class="$ui-text" mb-5 flex items-center justify-between hover:underline>
-                <span max-w-55vw text-truncate font-bold>{{ article.title }}</span>
+                <span text-truncate font-bold>{{ article.title }}</span>
                 <span>{{ article.date }}</span>
               </div>
               <div max-w-65vw text-sm class="$ui-text-description">
