@@ -44,7 +44,7 @@ export default defineConfig({
     [
       '$ui-fg',
       {
-        'background': `radial-gradient(transparent, rgba(255 255 255) 2px)`,
+        'background': `linear-gradient(45deg, rgba(255 255 255) 4px)`,
         'background-size': `4px 4px`,
         'backdrop-filter': `blur(10px)`,
         'z-index': '10',
@@ -53,7 +53,7 @@ export default defineConfig({
     [
       '$ui-dark-fg',
       {
-        'background': `radial-gradient(transparent, rgba(16 18 18) 2px)`,
+        'background': `linear-gradient(45deg, rgba(16 18 18) 4px)`,
         'background-size': `4px 4px`,
         'backdrop-filter': `blur(10px)`,
         'z-index': '10',
