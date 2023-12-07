@@ -15,6 +15,8 @@ import { presetRadix } from 'unocss-preset-radix'
 export default defineConfig({
   shortcuts: {
     '$ui-text': 'text-black dark:text-white',
+    '$ui-text-description': 'color-gray-9 dark:color-gray-9',
+    '$ui-project-block': 'bg-#fff8f88c dark:bg-#2b2a2ac7',
   },
   rules: [
     [
@@ -48,7 +50,7 @@ export default defineConfig({
       },
     ],
     [
-      'dark $ui-fg',
+      '$ui-dark-fg',
       {
         'background': `radial-gradient(transparent, rgba(23 19 19) 2px)`,
         'background-size': `4px 4px`,

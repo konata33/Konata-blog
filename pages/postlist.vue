@@ -4,7 +4,7 @@
     <div py-10 font-size-17 font-bold font-kalam>
       Notes
     </div>
-    <ul class="w-50vw color-slate-3 space-y-3">
+    <ul max-w-80vw color-slate-3 space-y-3>
       <ContentList
         path="/"
         :query="{
@@ -20,11 +20,11 @@
             cursor-pointer py-5
           >
             <NuxtLink :to="`/posts${article._path}`">
-              <div class="flex items-center justify-between $ui-text hover:underline">
-                <span mb-5 text-3xl font-bold>{{ article.title }}</span>
-                <span>{{ new Date(article.date).toLocaleDateString() }}</span>
+              <div class="$ui-text" mb-5 flex items-center justify-between hover:underline>
+                <span max-w-55vw text-truncate font-bold>{{ article.title }}</span>
+                <span>{{ article.date }}</span>
               </div>
-              <div text-sm class="$ui-text">
+              <div max-w-65vw text-sm class="$ui-text-description">
                 {{ article.description }}
               </div>
             </NuxtLink>

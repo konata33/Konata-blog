@@ -8,13 +8,13 @@ const projects = useProjectsStore()
       Projects
     </div>
     <div flex flex-col flex-wrap>
-      <div v-for="(item, index) in projects.list" :key="index" my-2 flex items-center space-x-3 class="bg-#2b2a2ac7">
+      <div v-for="(item, index) in projects.list" :key="index" my-2 flex items-center space-x-3 class="$ui-project-block">
         <i :class="item.icon" ml-4 text-3xl />
         <div my-5 flex flex-col>
-          <div bg-white-12 text-xl font-bold>
+          <div text-xl font-bold class="$ui-text">
             {{ item.title }}
           </div>
-          <div text-2xs color-gray-9>
+          <div text-2xs class="$ui-text-description">
             {{ item.description }}
           </div>
         </div>
