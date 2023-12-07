@@ -1,5 +1,9 @@
+<script setup>
+const isDark = useDark()
+</script>
+
 <template>
-  <div sticky top-0 z-100 w-full flex>
+  <div :class="isDark ? '$ui-dark-fg' : '$ui-fg'" sticky top-0 z-100 w-full flex>
     <div my-5 ml-3 max-w-15 w-10vw flex-1>
       <img src="@/assets/logo.png" alt="konata_logo" h-auto max-w-full rounded-full object-cover>
     </div>
