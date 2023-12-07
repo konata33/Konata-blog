@@ -43,9 +43,9 @@
     </li>
     <li ml-5>
       <div inline-block>
-        <button aspect-square h-10 w-10 flex items-center justify-center rounded-full text-2xl text-white>
+        <button aspect-square h-10 w-10 flex items-center justify-center rounded-full text-2xl>
           <a center flex href="https://github.com/konata33">
-            <i i-mingcute-github-line inline-block />
+            <i i-mingcute-github-line dark:i-mingcute-github-fill inline-block />
           </a>
         </button>
       </div>
