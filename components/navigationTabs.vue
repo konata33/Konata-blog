@@ -16,7 +16,7 @@ const isDark = useDark()
       </NuxtLink>
       <ClientOnly>
         <DarkToggle v-slot="{ toggle }" px-5>
-          <i i-mingcute-sun-fill dark:i-mingcute-moon-line inline-block text-3xl @click="toggle" />
+          <i i-mingcute-sun-fill dark:i-mingcute-moon-line inline-block cursor-pointer text-3xl @click="toggle" />
         </DarkToggle>
       </ClientOnly>
     </div>
