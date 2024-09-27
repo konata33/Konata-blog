@@ -1,7 +1,7 @@
 ---
 title: 在Expo中实现Twitter登录
 author: Konata
-date: 2024-09-27
+date: 2024-9-27
 description: 本文详细介绍如何在Expo应用中集成Twitter登录功能
 ---
 
