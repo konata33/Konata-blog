@@ -133,7 +133,7 @@ export function useTwitterAuth() {
 
 组件封装之后即可像如下轻松使用
 
-```TSX
+```typescript
 ...
 import { useTwitterAuth } from "./twitterAuth";
 
