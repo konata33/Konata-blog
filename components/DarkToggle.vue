@@ -28,9 +28,7 @@ function toggle(event: MouseEvent) {
   const y = event.clientY
   const endRadius = Math.hypot(Math.max(x, innerWidth - x), Math.max(y, innerHeight - y))
 
-  // @ts-expect-error: Transition API
   if (document.startViewTransition) {
-    // @ts-expect-error: Transition API
     const transition = document.startViewTransition(async () => {
       isDark.value = !isDark.value
       useToggle(useDark())
