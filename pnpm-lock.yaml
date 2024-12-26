@@ -63,7 +63,7 @@ devDependencies:
     version: 5.7.2
   unocss-preset-radix:
     specifier: ^2.5.5
-    version: 2.5.5
+    version: 2.5.6
   vue-tsc:
     specifier: ^2.0.26
     version: 2.2.0(typescript@5.7.2)
@@ -11059,8 +11059,8 @@ packages:
     resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}
     engines: {node: '>= 10.0.0'}
 
-  /unocss-preset-radix@2.5.5:
-    resolution: {integrity: sha512-lSnnKbfY37rC58Seosblr0j1V0Rcz3NCB501rHkdMm2iCH3oFBQkYn19O9VHO27vj1a2ZcHr0eZYYmJYbtHB/g==}
+  /unocss-preset-radix@2.5.6:
+    resolution: {integrity: sha512-l5tY8ILcvgQNwe0/5zw7NckoD3WL8LSIqqgsKRBv36dTbngR06dCBqq9H33WcFnwqnFtRXZWMlipoXKLpCKOww==}
     dependencies:
       '@radix-ui/colors': 3.0.0-rc.4
       '@unocss/core': 0.55.7
