@@ -29,7 +29,7 @@
     "@vite-pwa/nuxt": "^0.3.0",
     "@vue-macros/nuxt": "^1.9.6",
     "@vueuse/nuxt": "^12.0.0",
-    "eslint": "^8.53.0",
+    "eslint": "^9.0.0",
     "nuxt": "^3.8.2",
     "nuxt-svgo": "^3.6.0",
     "typescript": "^5.5.3",
