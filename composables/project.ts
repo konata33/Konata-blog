@@ -3,14 +3,19 @@
 export const useProjectsStore = defineStore('projects', () => {
   const list = [
     {
-      title: 'Unplugin-Console',
-      description: ' Use ast-kit to automatically erase browser console print information.',
-      icon: 'i-vscode-icons-file-type-vite',
+      title: 'Kona-Motion',
+      description: 'A Vue component library with unique personal style that provides a declarative way to create animations.',
+      icon: 'i-vscode-icons-file-type-vue',
     },
     {
-      title: 'Unplugin-dynamic-Import',
-      description: ' Using Vite for dynamic SVG conversion.',
-      icon: 'i-vscode-icons-file-type-vite',
+      title: 'Vue Macros',
+      description: 'Explore and expand more macros and syntactic sugars to Vue.',
+      icon: 'vue-macros',
+    },
+    {
+      title: 'Vue DevTools',
+      description: 'Vue.js browser developer tools extension.',
+      icon: 'vue-devtools',
     },
   ]
   return {
