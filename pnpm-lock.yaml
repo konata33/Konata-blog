@@ -56,8 +56,8 @@ devDependencies:
     specifier: ^3.8.2
     version: 3.14.1592(eslint@8.57.1)(rollup@2.79.2)(typescript@5.7.2)(vite@5.4.11)(vue-tsc@2.2.0)
   nuxt-svgo:
-    specifier: ^3.6.0
-    version: 3.7.0(rollup@2.79.2)
+    specifier: ^4.0.0
+    version: 4.0.17(rollup@2.79.2)(vue@3.5.13)
   typescript:
     specifier: ^5.5.3
     version: 5.7.2
@@ -8773,10 +8773,11 @@ packages:
     engines: {node: ^16.10.0 || >=18.0.0}
     hasBin: true
 
-  /nuxt-svgo@3.7.0(rollup@2.79.2):
-    resolution: {integrity: sha512-WXCUvtla4wDMHlpsNVBefTjpFZid7479oduoU57ixIfqVFo57vhOl50jTNomvLxmRgTrV0qOcNzyQNWzRIuUvA==}
+  /nuxt-svgo@4.0.17(rollup@2.79.2)(vue@3.5.13):
+    resolution: {integrity: sha512-AYgqn8z6AZppN7i9CCPsDIOBa9CcBDrxF43wmErYNgKvF402DEHOOQ4lGimVwn5ELpgB4K3TTia7shWXNQtw1g==}
     peerDependencies:
       svgo-loader: ^4.0.0
+      vue: '>=3.2.13'
       vue-loader: ^17.0.0
       vue-svg-loader: 0.17.0-beta.2
     peerDependenciesMeta:
@@ -8788,9 +8789,9 @@ packages:
         optional: true
     dependencies:
       '@nuxt/kit': 3.14.1592(magicast@0.3.5)(rollup@2.79.2)
-      '@vue/compiler-sfc': 3.5.13
       mini-svg-data-uri: 1.4.4
-      svgo: 3.3.2
+      svgo: 3.0.2
+      vue: 3.5.13(typescript@5.7.2)
     transitivePeerDependencies:
       - magicast
       - rollup
@@ -10568,6 +10569,19 @@ packages:
 
   /svg-tags@1.0.0:
     resolution: {integrity: sha512-ovssysQTa+luh7A5Weu3Rta6FJlFBBbInjOh722LIt6klpU2/HtdUbszju/G4devcvk8PGt7FCLv5wftu3THUA==}
+
+  /svgo@3.0.2:
+    resolution: {integrity: sha512-Z706C1U2pb1+JGP48fbazf3KxHrWOsLme6Rv7imFBn5EnuanDW1GPaA/P1/dvObE670JDePC3mnj0k0B7P0jjQ==}
+    engines: {node: '>=14.0.0'}
+    hasBin: true
+    dependencies:
+      '@trysound/sax': 0.2.0
+      commander: 7.2.0
+      css-select: 5.1.0
+      css-tree: 2.3.1
+      csso: 5.0.5
+      picocolors: 1.1.1
+    dev: true
 
   /svgo@3.3.2:
     resolution: {integrity: sha512-OoohrmuUlBs8B8o6MB2Aevn+pRIH9zDALSR+6hhqVfa6fRwG/Qw9VUMSMW9VNg2CFc/MTIfabtdOVl9ODIJjpw==}
