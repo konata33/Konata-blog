@@ -23,7 +23,7 @@
     "@iconify-json/mingcute": "^1.1.11",
     "@iconify-json/vscode-icons": "^1.1.31",
     "@nuxt/devtools": "latest",
-    "@pinia/nuxt": "^0.5.1",
+    "@pinia/nuxt": "^0.11.0",
     "@unocss/eslint-config": "^0.58.0",
     "@unocss/nuxt": "^0.58.0",
     "@vite-pwa/nuxt": "^0.3.0",
